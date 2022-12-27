@@ -1,0 +1,155 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 11em auto;
+    align-items: center;
+    width: 60%;
+    height: 34em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    min-width: 500px;
+    
+    
+
+}
+.register-container{
+    display: flex;
+    justify-content: center;
+    margin: 11em auto;
+    align-items: center;
+    width: 60%;
+    height: 34em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    min-width: 500px;
+    
+
+}
+.form-container{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+
+}
+
+.img-container {
+   animation: slide-down 0.5s ease;
+   width: 50%;
+   height: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form {
+    animation: slide-up 0.5s ease;
+
+}
+.inputline {
+    padding: .5rem;
+    height: 5rem;
+    color: blue;
+}
+input {
+    width: 300px;
+    padding: .8rem;
+    border: none;
+    border-bottom: 1px solid blue;
+    outline: none;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    font-size: 16px;
+}
+.forgot {
+    margin-top: 1.3em;
+    color: gray;
+
+}
+.forgot:hover {
+    color: orangered;
+    
+}
+.register {
+    margin-top: .8rem;
+    color: gray;
+}
+.forgot a {
+    text-decoration: none;
+    color: orangered
+}
+.register a {
+    text-decoration: none;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+.register a:hover {
+    color:blue;
+}
+
+.close-icon{
+    /* border: rgb(215, 31, 31) 1px solid; */
+    position: absolute;
+    border-radius: 50%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left:0rem;
+    
+    
+    
+}
+@keyframes slide-down {
+    0% {
+    transform: translateY(-100%)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+@keyframes slide-up {
+    0% {
+    transform: translateY(100%)
+    }
+    100% {
+        transform: translateY(0)
+    }
+
+} 
+@media screen and (max-width: 1611px) {
+    .container, .register-container{
+        width:70%;
+        transform: scale(.90);
+        
+    }
+    .img-container{
+        transform: scale(.90);
+    }
+}
+@media screen and (max-width: 1130px) {
+    .container, .register-container{
+        width:70%;
+        
+        
+    }
+    .form-container{
+        width:100%;
+    }
+    .img-container{
+        display: none;
+
+
+    }
+    
+}
+    
