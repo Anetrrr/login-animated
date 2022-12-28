@@ -10,7 +10,7 @@ const Form = ({fields, title}) => {
     <div className='container-form'>
 			<h1 className='login'>{title}</h1>
 			<form className='form-full' onSubmit={handleSubmit}>
-            {fields.map((field) => (
+            {fields.map((field, id) => (
                 <div className='inputline'>
 					<input
                         name={field.name}

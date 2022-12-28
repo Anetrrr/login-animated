@@ -8,8 +8,8 @@ const LoginForm = () => {
 	
 
 	const fields = [
-		{ name: 'username', type: 'text', placeholder: 'Username', id: 1 },
-		{ name: 'password', type: 'password', placeholder: 'Password', id: 2 },
+		{ name: 'username', type: 'text', placeholder: 'Username'},
+		{ name: 'password', type: 'password', placeholder: 'Password' },
 	];
 	
 
