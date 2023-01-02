@@ -16,12 +16,7 @@ const LoginForm = () => {
 
 	return (
 		<>
-			{/* <div className="img-container">
-				<img
-					src={img}
-					alt=""
-				/>
-			</div> */}
+			
 			<Form
 				fields={fields}
 				title="Login"

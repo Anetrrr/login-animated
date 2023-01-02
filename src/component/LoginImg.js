@@ -3,8 +3,7 @@ import './Form.css'
 import loginlogo from '../assets/loginlogo.svg'
 
 
-export default function LoginImg({arr}) {
-    // const Image = {img}
+export default function LoginImg() {
     
 
   return (
